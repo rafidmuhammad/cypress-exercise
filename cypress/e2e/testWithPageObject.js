@@ -11,7 +11,6 @@ describe('Test with page object', () => {
         NavigateTo.datePickerPage()
         NavigateTo.formLayoutPage()
         NavigateTo.smartTablePage()
-
         NavigateTo.toasterPage()
         NavigateTo.tooltipPage()
     })
@@ -23,6 +22,5 @@ describe('Test with page object', () => {
         NavigateTo.datePickerPage()
         onDatePickerPage.selectCommonDatePicker(10)
         onDatePickerPage.selectCommonDatePickerRange(7, 14)
-
     })
 })
